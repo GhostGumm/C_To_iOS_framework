@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12630A481B666FE5009128C9 /* Moskito.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12630A471B666FE5009128C9 /* Moskito.h */; };
+		12630A4A1B666FE5009128C9 /* Moskito.m in Sources */ = {isa = PBXBuildFile; fileRef = 12630A491B666FE5009128C9 /* Moskito.m */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A501B666FE5009128C9 /* libMoskito.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12630A441B666FE5009128C9 /* libMoskito.a */; };
+		12630A7C1B667034009128C9 /* dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A6C1B667034009128C9 /* dump.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A7D1B667034009128C9 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A6D1B667034009128C9 /* error.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A7E1B667034009128C9 /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A6E1B667034009128C9 /* hashtable.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A7F1B667034009128C9 /* load.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A731B667034009128C9 /* load.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A801B667034009128C9 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A741B667034009128C9 /* memory.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A811B667034009128C9 /* pack_unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A751B667034009128C9 /* pack_unpack.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A821B667034009128C9 /* strbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A761B667034009128C9 /* strbuffer.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A831B667034009128C9 /* strconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A781B667034009128C9 /* strconv.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A841B667034009128C9 /* utf.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A791B667034009128C9 /* utf.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630A851B667034009128C9 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A7B1B667034009128C9 /* value.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AAC1B66706F009128C9 /* comet_buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A9A1B66706E009128C9 /* comet_buffer.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AAD1B66706F009128C9 /* comet_message.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A9B1B66706E009128C9 /* comet_message.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AAE1B66706F009128C9 /* cometd.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A9C1B66706E009128C9 /* cometd.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AAF1B66706F009128C9 /* CommandParsingInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A9D1B66706E009128C9 /* CommandParsingInfo.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB01B66706F009128C9 /* gdaEntryInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A9E1B66706E009128C9 /* gdaEntryInfo.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB11B66706F009128C9 /* gdaGetEntryInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630A9F1B66706E009128C9 /* gdaGetEntryInfo.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB21B66706F009128C9 /* gdaPutEntryInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA01B66706E009128C9 /* gdaPutEntryInfo.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB31B66706F009128C9 /* groupUsersParsingInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA11B66706E009128C9 /* groupUsersParsingInfo.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB41B66706F009128C9 /* handlers.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA21B66706E009128C9 /* handlers.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB51B66706F009128C9 /* hashMaps.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA31B66706E009128C9 /* hashMaps.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB61B66706F009128C9 /* http_transport.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA41B66706E009128C9 /* http_transport.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB71B66706F009128C9 /* listingEntryInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA51B66706E009128C9 /* listingEntryInfo.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB81B66706F009128C9 /* msgReceiveInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA61B66706E009128C9 /* msgReceiveInfo.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630AB91B66706F009128C9 /* pongtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA71B66706E009128C9 /* pongtest.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630ABA1B66706F009128C9 /* requesters.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA81B66706E009128C9 /* requesters.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630ABB1B66706F009128C9 /* stackGetEntryInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AA91B66706E009128C9 /* stackGetEntryInfo.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630ABC1B66706F009128C9 /* stackListEntryInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AAA1B66706F009128C9 /* stackListEntryInfo.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+		12630ABD1B66706F009128C9 /* zetaclient.c in Sources */ = {isa = PBXBuildFile; fileRef = 12630AAB1B66706F009128C9 /* zetaclient.c */; settings = {COMPILER_FLAGS = "-DCURL_STATICLIB"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12630A511B666FE5009128C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12630A3C1B666FE5009128C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12630A431B666FE5009128C9;
+			remoteInfo = Moskito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12630A421B666FE5009128C9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				12630A481B666FE5009128C9 /* Moskito.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12630A441B666FE5009128C9 /* libMoskito.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMoskito.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		12630A471B666FE5009128C9 /* Moskito.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moskito.h; sourceTree = "<group>"; };
+		12630A491B666FE5009128C9 /* Moskito.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moskito.m; sourceTree = "<group>"; };
+		12630A4F1B666FE5009128C9 /* MoskitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoskitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12630A551B666FE5009128C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12630A611B667025009128C9 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		12630A621B667025009128C9 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		12630A631B667025009128C9 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		12630A641B667025009128C9 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		12630A651B667025009128C9 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		12630A661B667025009128C9 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		12630A671B667025009128C9 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		12630A681B667025009128C9 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		12630A691B667025009128C9 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		12630A6A1B667025009128C9 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		12630A6C1B667034009128C9 /* dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dump.c; sourceTree = "<group>"; };
+		12630A6D1B667034009128C9 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		12630A6E1B667034009128C9 /* hashtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashtable.c; sourceTree = "<group>"; };
+		12630A6F1B667034009128C9 /* hashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashtable.h; sourceTree = "<group>"; };
+		12630A701B667034009128C9 /* jansson_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_config.h; sourceTree = "<group>"; };
+		12630A711B667034009128C9 /* jansson_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_private.h; sourceTree = "<group>"; };
+		12630A721B667034009128C9 /* jansson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson.h; sourceTree = "<group>"; };
+		12630A731B667034009128C9 /* load.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = load.c; sourceTree = "<group>"; };
+		12630A741B667034009128C9 /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
+		12630A751B667034009128C9 /* pack_unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pack_unpack.c; sourceTree = "<group>"; };
+		12630A761B667034009128C9 /* strbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strbuffer.c; sourceTree = "<group>"; };
+		12630A771B667034009128C9 /* strbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strbuffer.h; sourceTree = "<group>"; };
+		12630A781B667034009128C9 /* strconv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strconv.c; sourceTree = "<group>"; };
+		12630A791B667034009128C9 /* utf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf.c; sourceTree = "<group>"; };
+		12630A7A1B667034009128C9 /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		12630A7B1B667034009128C9 /* value.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
+		12630A861B667048009128C9 /* libZeta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libZeta.h; sourceTree = "<group>"; };
+		12630A871B667048009128C9 /* 2046.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2046.h; sourceTree = "<group>"; };
+		12630A881B667048009128C9 /* comet_buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comet_buffer.h; sourceTree = "<group>"; };
+		12630A891B667048009128C9 /* comet_memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comet_memory.h; sourceTree = "<group>"; };
+		12630A8A1B667048009128C9 /* comet_message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comet_message.h; sourceTree = "<group>"; };
+		12630A8B1B667048009128C9 /* cometd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cometd.h; sourceTree = "<group>"; };
+		12630A8C1B667048009128C9 /* cometd_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cometd_internal.h; sourceTree = "<group>"; };
+		12630A8D1B667048009128C9 /* CommandParsingInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandParsingInfo.h; sourceTree = "<group>"; };
+		12630A8E1B667048009128C9 /* getGdaInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getGdaInfo.h; sourceTree = "<group>"; };
+		12630A8F1B667048009128C9 /* groupUsersInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = groupUsersInfo.h; sourceTree = "<group>"; };
+		12630A901B667048009128C9 /* handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = handler.h; sourceTree = "<group>"; };
+		12630A911B667048009128C9 /* HashMaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashMaps.h; sourceTree = "<group>"; };
+		12630A921B667048009128C9 /* listingEntryInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listingEntryInfo.h; sourceTree = "<group>"; };
+		12630A931B667048009128C9 /* listingGdaInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listingGdaInfo.h; sourceTree = "<group>"; };
+		12630A941B667048009128C9 /* messageEntryInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messageEntryInfo.h; sourceTree = "<group>"; };
+		12630A951B667048009128C9 /* putGdaInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = putGdaInfo.h; sourceTree = "<group>"; };
+		12630A961B667048009128C9 /* queueInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queueInfo.h; sourceTree = "<group>"; };
+		12630A971B667048009128C9 /* stackListenerInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stackListenerInfo.h; sourceTree = "<group>"; };
+		12630A981B667048009128C9 /* stackListingInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stackListingInfo.h; sourceTree = "<group>"; };
+		12630A991B667048009128C9 /* zetaclient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zetaclient.h; sourceTree = "<group>"; };
+		12630A9A1B66706E009128C9 /* comet_buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = comet_buffer.c; sourceTree = "<group>"; };
+		12630A9B1B66706E009128C9 /* comet_message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = comet_message.c; sourceTree = "<group>"; };
+		12630A9C1B66706E009128C9 /* cometd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cometd.c; sourceTree = "<group>"; };
+		12630A9D1B66706E009128C9 /* CommandParsingInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CommandParsingInfo.c; sourceTree = "<group>"; };
+		12630A9E1B66706E009128C9 /* gdaEntryInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdaEntryInfo.c; sourceTree = "<group>"; };
+		12630A9F1B66706E009128C9 /* gdaGetEntryInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdaGetEntryInfo.c; sourceTree = "<group>"; };
+		12630AA01B66706E009128C9 /* gdaPutEntryInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdaPutEntryInfo.c; sourceTree = "<group>"; };
+		12630AA11B66706E009128C9 /* groupUsersParsingInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = groupUsersParsingInfo.c; sourceTree = "<group>"; };
+		12630AA21B66706E009128C9 /* handlers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = handlers.c; sourceTree = "<group>"; };
+		12630AA31B66706E009128C9 /* hashMaps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashMaps.c; sourceTree = "<group>"; };
+		12630AA41B66706E009128C9 /* http_transport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http_transport.c; sourceTree = "<group>"; };
+		12630AA51B66706E009128C9 /* listingEntryInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = listingEntryInfo.c; sourceTree = "<group>"; };
+		12630AA61B66706E009128C9 /* msgReceiveInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = msgReceiveInfo.c; sourceTree = "<group>"; };
+		12630AA71B66706E009128C9 /* pongtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pongtest.c; sourceTree = "<group>"; };
+		12630AA81B66706E009128C9 /* requesters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = requesters.c; sourceTree = "<group>"; };
+		12630AA91B66706E009128C9 /* stackGetEntryInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stackGetEntryInfo.c; sourceTree = "<group>"; };
+		12630AAA1B66706F009128C9 /* stackListEntryInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stackListEntryInfo.c; sourceTree = "<group>"; };
+		12630AAB1B66706F009128C9 /* zetaclient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zetaclient.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12630A411B666FE5009128C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12630A4C1B666FE5009128C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12630A501B666FE5009128C9 /* libMoskito.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12630A3B1B666FE5009128C9 = {
+			isa = PBXGroup;
+			children = (
+				12630A9A1B66706E009128C9 /* comet_buffer.c */,
+				12630A9B1B66706E009128C9 /* comet_message.c */,
+				12630A9C1B66706E009128C9 /* cometd.c */,
+				12630A9D1B66706E009128C9 /* CommandParsingInfo.c */,
+				12630A9E1B66706E009128C9 /* gdaEntryInfo.c */,
+				12630A9F1B66706E009128C9 /* gdaGetEntryInfo.c */,
+				12630AA01B66706E009128C9 /* gdaPutEntryInfo.c */,
+				12630AA11B66706E009128C9 /* groupUsersParsingInfo.c */,
+				12630AA21B66706E009128C9 /* handlers.c */,
+				12630AA31B66706E009128C9 /* hashMaps.c */,
+				12630AA41B66706E009128C9 /* http_transport.c */,
+				12630AA51B66706E009128C9 /* listingEntryInfo.c */,
+				12630AA61B66706E009128C9 /* msgReceiveInfo.c */,
+				12630AA71B66706E009128C9 /* pongtest.c */,
+				12630AA81B66706E009128C9 /* requesters.c */,
+				12630AA91B66706E009128C9 /* stackGetEntryInfo.c */,
+				12630AAA1B66706F009128C9 /* stackListEntryInfo.c */,
+				12630AAB1B66706F009128C9 /* zetaclient.c */,
+				12630A601B667018009128C9 /* includes */,
+				12630A5F1B667012009128C9 /* jansson */,
+				12630A5E1B66700A009128C9 /* curl */,
+				12630A461B666FE5009128C9 /* Moskito */,
+				12630A531B666FE5009128C9 /* MoskitoTests */,
+				12630A451B666FE5009128C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12630A451B666FE5009128C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12630A441B666FE5009128C9 /* libMoskito.a */,
+				12630A4F1B666FE5009128C9 /* MoskitoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12630A461B666FE5009128C9 /* Moskito */ = {
+			isa = PBXGroup;
+			children = (
+				12630A471B666FE5009128C9 /* Moskito.h */,
+				12630A491B666FE5009128C9 /* Moskito.m */,
+			);
+			path = Moskito;
+			sourceTree = "<group>";
+		};
+		12630A531B666FE5009128C9 /* MoskitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				12630A541B666FE5009128C9 /* Supporting Files */,
+			);
+			path = MoskitoTests;
+			sourceTree = "<group>";
+		};
+		12630A541B666FE5009128C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12630A551B666FE5009128C9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12630A5E1B66700A009128C9 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				12630A611B667025009128C9 /* libcurl.a */,
+				12630A621B667025009128C9 /* curl.h */,
+				12630A631B667025009128C9 /* curlbuild.h */,
+				12630A641B667025009128C9 /* curlrules.h */,
+				12630A651B667025009128C9 /* curlver.h */,
+				12630A661B667025009128C9 /* easy.h */,
+				12630A671B667025009128C9 /* mprintf.h */,
+				12630A681B667025009128C9 /* multi.h */,
+				12630A691B667025009128C9 /* stdcheaders.h */,
+				12630A6A1B667025009128C9 /* typecheck-gcc.h */,
+			);
+			name = curl;
+			sourceTree = "<group>";
+		};
+		12630A5F1B667012009128C9 /* jansson */ = {
+			isa = PBXGroup;
+			children = (
+				12630A6C1B667034009128C9 /* dump.c */,
+				12630A6D1B667034009128C9 /* error.c */,
+				12630A6E1B667034009128C9 /* hashtable.c */,
+				12630A6F1B667034009128C9 /* hashtable.h */,
+				12630A701B667034009128C9 /* jansson_config.h */,
+				12630A711B667034009128C9 /* jansson_private.h */,
+				12630A721B667034009128C9 /* jansson.h */,
+				12630A731B667034009128C9 /* load.c */,
+				12630A741B667034009128C9 /* memory.c */,
+				12630A751B667034009128C9 /* pack_unpack.c */,
+				12630A761B667034009128C9 /* strbuffer.c */,
+				12630A771B667034009128C9 /* strbuffer.h */,
+				12630A781B667034009128C9 /* strconv.c */,
+				12630A791B667034009128C9 /* utf.c */,
+				12630A7A1B667034009128C9 /* utf.h */,
+				12630A7B1B667034009128C9 /* value.c */,
+			);
+			name = jansson;
+			sourceTree = "<group>";
+		};
+		12630A601B667018009128C9 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				12630A861B667048009128C9 /* libZeta.h */,
+				12630A871B667048009128C9 /* 2046.h */,
+				12630A881B667048009128C9 /* comet_buffer.h */,
+				12630A891B667048009128C9 /* comet_memory.h */,
+				12630A8A1B667048009128C9 /* comet_message.h */,
+				12630A8B1B667048009128C9 /* cometd.h */,
+				12630A8C1B667048009128C9 /* cometd_internal.h */,
+				12630A8D1B667048009128C9 /* CommandParsingInfo.h */,
+				12630A8E1B667048009128C9 /* getGdaInfo.h */,
+				12630A8F1B667048009128C9 /* groupUsersInfo.h */,
+				12630A901B667048009128C9 /* handler.h */,
+				12630A911B667048009128C9 /* HashMaps.h */,
+				12630A921B667048009128C9 /* listingEntryInfo.h */,
+				12630A931B667048009128C9 /* listingGdaInfo.h */,
+				12630A941B667048009128C9 /* messageEntryInfo.h */,
+				12630A951B667048009128C9 /* putGdaInfo.h */,
+				12630A961B667048009128C9 /* queueInfo.h */,
+				12630A971B667048009128C9 /* stackListenerInfo.h */,
+				12630A981B667048009128C9 /* stackListingInfo.h */,
+				12630A991B667048009128C9 /* zetaclient.h */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12630A431B666FE5009128C9 /* Moskito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12630A581B666FE5009128C9 /* Build configuration list for PBXNativeTarget "Moskito" */;
+			buildPhases = (
+				12630A401B666FE5009128C9 /* Sources */,
+				12630A411B666FE5009128C9 /* Frameworks */,
+				12630A421B666FE5009128C9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moskito;
+			productName = Moskito;
+			productReference = 12630A441B666FE5009128C9 /* libMoskito.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		12630A4E1B666FE5009128C9 /* MoskitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12630A5B1B666FE5009128C9 /* Build configuration list for PBXNativeTarget "MoskitoTests" */;
+			buildPhases = (
+				12630A4B1B666FE5009128C9 /* Sources */,
+				12630A4C1B666FE5009128C9 /* Frameworks */,
+				12630A4D1B666FE5009128C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12630A521B666FE5009128C9 /* PBXTargetDependency */,
+			);
+			name = MoskitoTests;
+			productName = MoskitoTests;
+			productReference = 12630A4F1B666FE5009128C9 /* MoskitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12630A3C1B666FE5009128C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Hakim;
+				TargetAttributes = {
+					12630A431B666FE5009128C9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					12630A4E1B666FE5009128C9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 12630A3F1B666FE5009128C9 /* Build configuration list for PBXProject "Moskito" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12630A3B1B666FE5009128C9;
+			productRefGroup = 12630A451B666FE5009128C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12630A431B666FE5009128C9 /* Moskito */,
+				12630A4E1B666FE5009128C9 /* MoskitoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12630A4D1B666FE5009128C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12630A401B666FE5009128C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12630A7F1B667034009128C9 /* load.c in Sources */,
+				12630AB21B66706F009128C9 /* gdaPutEntryInfo.c in Sources */,
+				12630A831B667034009128C9 /* strconv.c in Sources */,
+				12630AB61B66706F009128C9 /* http_transport.c in Sources */,
+				12630A811B667034009128C9 /* pack_unpack.c in Sources */,
+				12630ABC1B66706F009128C9 /* stackListEntryInfo.c in Sources */,
+				12630AB11B66706F009128C9 /* gdaGetEntryInfo.c in Sources */,
+				12630AB31B66706F009128C9 /* groupUsersParsingInfo.c in Sources */,
+				12630AB51B66706F009128C9 /* hashMaps.c in Sources */,
+				12630ABB1B66706F009128C9 /* stackGetEntryInfo.c in Sources */,
+				12630AAE1B66706F009128C9 /* cometd.c in Sources */,
+				12630A7E1B667034009128C9 /* hashtable.c in Sources */,
+				12630AB71B66706F009128C9 /* listingEntryInfo.c in Sources */,
+				12630A7D1B667034009128C9 /* error.c in Sources */,
+				12630A4A1B666FE5009128C9 /* Moskito.m in Sources */,
+				12630A851B667034009128C9 /* value.c in Sources */,
+				12630A801B667034009128C9 /* memory.c in Sources */,
+				12630AB81B66706F009128C9 /* msgReceiveInfo.c in Sources */,
+				12630ABD1B66706F009128C9 /* zetaclient.c in Sources */,
+				12630ABA1B66706F009128C9 /* requesters.c in Sources */,
+				12630AB41B66706F009128C9 /* handlers.c in Sources */,
+				12630AB01B66706F009128C9 /* gdaEntryInfo.c in Sources */,
+				12630AAF1B66706F009128C9 /* CommandParsingInfo.c in Sources */,
+				12630AAC1B66706F009128C9 /* comet_buffer.c in Sources */,
+				12630A841B667034009128C9 /* utf.c in Sources */,
+				12630AB91B66706F009128C9 /* pongtest.c in Sources */,
+				12630A7C1B667034009128C9 /* dump.c in Sources */,
+				12630A821B667034009128C9 /* strbuffer.c in Sources */,
+				12630AAD1B66706F009128C9 /* comet_message.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12630A4B1B666FE5009128C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12630A521B666FE5009128C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12630A431B666FE5009128C9 /* Moskito */;
+			targetProxy = 12630A511B666FE5009128C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12630A561B666FE5009128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12630A571B666FE5009128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12630A591B666FE5009128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		12630A5A1B666FE5009128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		12630A5C1B666FE5009128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoskitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12630A5D1B666FE5009128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoskitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12630A3F1B666FE5009128C9 /* Build configuration list for PBXProject "Moskito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12630A561B666FE5009128C9 /* Debug */,
+				12630A571B666FE5009128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12630A581B666FE5009128C9 /* Build configuration list for PBXNativeTarget "Moskito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12630A591B666FE5009128C9 /* Debug */,
+				12630A5A1B666FE5009128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12630A5B1B666FE5009128C9 /* Build configuration list for PBXNativeTarget "MoskitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12630A5C1B666FE5009128C9 /* Debug */,
+				12630A5D1B666FE5009128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12630A3C1B666FE5009128C9 /* Project object */;
+}
